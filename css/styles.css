@@ -1,5 +1,5 @@
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .container{
@@ -9,12 +9,8 @@ body{
 
 h1{
     font-size: 2rem;
+    font-weight: 700;
     color: #e4306f;
-}
-
-h2{
-    padding:0;
-    font-size: 1rem;
 }
 
 .clearfix::after {
@@ -24,13 +20,12 @@ h2{
 }
 
 .row{
-    height: 200px;
+
 }
 
 .card{
-    width: 33%;
+    width: 30%;
     background-color: #0f0e17;
-
     text-align: left;
 }
 
@@ -39,11 +34,13 @@ h2{
 }
 
 img{
-    width: 25%;
+    width: 30%;
+    float: left;
 }
 
 .data{
-    
+    width: 70%;
+    font-size: 0.7rem;
     margin-left: 5px;
     color: #FFFFFF;
 }
@@ -53,6 +50,5 @@ img{
 }
 
 .data-mail{
-    font-size: 0.7rem;
-    color: #4acaf7;
+        color: #4acaf7;
 }
