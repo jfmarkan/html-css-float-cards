@@ -6,3 +6,15 @@
 }
 
 /* STYLES */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container{
+    padding: 0 20%;
+    text-align: center;
+}
+
+h1{
+    color: #e4306f;
+}
