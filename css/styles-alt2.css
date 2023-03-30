@@ -16,9 +16,9 @@ h1{
     color: #e4306f;
 }
 
-/*.row{
+.row{
     margin-top: 50px;
-}*/
+}
 
 .clearfix::after {
     content: "";
@@ -47,7 +47,7 @@ div.card:nth-of-type(2){
 
 img{
     width: 30%;
-    float: right;
+    float: left;
 }
 
 .data{
