@@ -1,16 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Varela Round', sans-serif;
 }
 
 .container{
-    padding: 0 20%;
+    padding: 0 15%;
     text-align: center;
 }
 
 h1{
     font-size: 2rem;
-    font-weight: 700;
     color: #e4306f;
+}
+
+h2{
+
 }
 
 .clearfix::after {
@@ -19,14 +26,11 @@ h1{
     clear: both;
 }
 
-.row{
-
-}
-
-.card{
-    width: 30%;
+div.card{
+    width: 32%;
     background-color: #0f0e17;
     text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .float-left{
@@ -40,15 +44,11 @@ img{
 
 .data{
     width: 70%;
-    font-size: 0.7rem;
-    margin-left: 5px;
+    padding-left: 10px;
+    font-size: 0.9rem;
     color: #FFFFFF;
 }
 
-.data-task{
-    font-size: 0.7rem;
-}
-
-.data-mail{
+.email{
         color: #4acaf7;
 }
